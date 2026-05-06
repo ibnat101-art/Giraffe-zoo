@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Giraffe feeding on carrots showing positive animal welfare">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dff4ff"/>
+      <stop offset="100%" stop-color="#f5fcff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <rect y="560" width="1200" height="240" fill="#b9e788"/>
+  <circle cx="980" cy="150" r="90" fill="#ffd26a"/>
+
+  <g fill="#fff" opacity="0.95">
+    <ellipse cx="180" cy="130" rx="90" ry="45"/>
+    <ellipse cx="250" cy="110" rx="80" ry="40"/>
+    <ellipse cx="320" cy="130" rx="85" ry="42"/>
+  </g>
+
+  <g id="giraffe" stroke="#94622a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="570" cy="490" rx="210" ry="130" fill="#f4b45c"/>
+    <path d="M650 380 L710 225 L785 225 L725 395 Z" fill="#f4b45c"/>
+    <ellipse cx="835" cy="235" rx="105" ry="72" fill="#f4b45c"/>
+
+    <path d="M770 174 L792 128 L822 176 Z" fill="#f4b45c"/>
+    <path d="M858 177 L888 130 L910 182 Z" fill="#f4b45c"/>
+    <rect x="802" y="126" width="13" height="42" fill="#94622a"/>
+    <rect x="850" y="126" width="13" height="42" fill="#94622a"/>
+    <circle cx="809" cy="118" r="10" fill="#94622a"/>
+    <circle cx="857" cy="118" r="10" fill="#94622a"/>
+
+    <circle cx="875" cy="222" r="6" fill="#1e1e1e" stroke="none"/>
+    <path d="M815 258 Q855 287 897 258" fill="none" stroke="#6f411d" stroke-width="5"/>
+
+    <rect x="430" y="560" width="54" height="200" rx="20" fill="#f4b45c"/>
+    <rect x="522" y="560" width="54" height="200" rx="20" fill="#f4b45c"/>
+    <rect x="622" y="560" width="54" height="200" rx="20" fill="#f4b45c"/>
+    <rect x="714" y="560" width="54" height="200" rx="20" fill="#f4b45c"/>
+    <rect x="430" y="742" width="54" height="18" fill="#7f5024"/>
+    <rect x="522" y="742" width="54" height="18" fill="#7f5024"/>
+    <rect x="622" y="742" width="54" height="18" fill="#7f5024"/>
+    <rect x="714" y="742" width="54" height="18" fill="#7f5024"/>
+
+    <path d="M368 465 Q330 515 312 550" fill="none"/>
+    <ellipse cx="305" cy="559" rx="14" ry="19" fill="#7f5024"/>
+
+    <g fill="#ca8430" stroke="none">
+      <ellipse cx="465" cy="440" rx="32" ry="25"/>
+      <ellipse cx="548" cy="470" rx="28" ry="22"/>
+      <ellipse cx="624" cy="432" rx="35" ry="26"/>
+      <ellipse cx="695" cy="476" rx="30" ry="23"/>
+      <ellipse cx="585" cy="540" rx="34" ry="27"/>
+      <ellipse cx="694" cy="311" rx="23" ry="18"/>
+      <ellipse cx="733" cy="272" rx="20" ry="16"/>
+      <ellipse cx="771" cy="235" rx="18" ry="14"/>
+      <ellipse cx="823" cy="214" rx="19" ry="14"/>
+    </g>
+  </g>
+
+  <g id="carrots" transform="translate(930 252)">
+    <g transform="rotate(-8)">
+      <path d="M0 0 L98 25 L18 72 Z" fill="#f28f3a" stroke="#b35d1f" stroke-width="4"/>
+      <path d="M10 -16 L25 6 L-5 4 Z" fill="#4cae4f"/>
+      <path d="M26 -18 L40 9 L11 8 Z" fill="#3f9743"/>
+    </g>
+    <g transform="translate(40 -6) rotate(4)">
+      <path d="M0 0 L95 24 L16 70 Z" fill="#f28f3a" stroke="#b35d1f" stroke-width="4"/>
+      <path d="M9 -14 L24 8 L-6 4 Z" fill="#4cae4f"/>
+      <path d="M24 -17 L39 8 L10 8 Z" fill="#3f9743"/>
+    </g>
+    <g transform="translate(82 -11) rotate(11)">
+      <path d="M0 0 L90 23 L15 67 Z" fill="#f28f3a" stroke="#b35d1f" stroke-width="4"/>
+      <path d="M7 -13 L21 8 L-8 5 Z" fill="#4cae4f"/>
+      <path d="M22 -16 L36 8 L8 8 Z" fill="#3f9743"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="40" y="610" width="350" height="150" rx="24" fill="#ffffff" stroke="#4caf50" stroke-width="6"/>
+    <text x="70" y="665" font-size="38" font-family="Arial, sans-serif" fill="#2e7d32" font-weight="700">Positive Welfare</text>
+    <text x="70" y="712" font-size="28" font-family="Arial, sans-serif" fill="#2e7d32">Gentle care &amp; nutrition</text>
+  </g>
+</svg>
