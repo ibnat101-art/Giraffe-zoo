@@ -1,169 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giraffe Zoo - Animal Welfare & Education</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZooCare | Compassion. Conservation. Connection.</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation Header -->
-    <header class="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                <h1>🦒 Giraffe Zoo</h1>
-                <p class="tagline">Care. Respect. Protect. Educate.</p>
-            </div>
-            <nav class="nav-menu">
-                <a href="index.html" class="nav-link active">Home</a>
-                <a href="find-zoo.html" class="nav-link">Find a Zoo</a>
-                <a href="services.html" class="nav-link">Services</a>
-                <a href="incidents.html" class="nav-link">Reported Incidents</a>
-                <a href="#support" class="nav-link support-btn">Support Us ❤️</a>
-            </nav>
+  <div class="page-shell">
+    <header class="topbar glass">
+      <div class="brand">
+        <div class="brand-icon">🧸</div>
+        <div>
+          <h1>ZooCare</h1>
+          <p>Compassion. Conservation. Connection.</p>
         </div>
+      </div>
+      <nav class="nav-pills" aria-label="Primary">
+        <a class="pill active" href="index.html">Home</a>
+        <a class="pill" href="#animals">Animals</a>
+        <a class="pill" href="#conservation">Conservation</a>
+        <a class="pill" href="#education">Education</a>
+        <a class="pill" href="#visit">Visit</a>
+      </nav>
+      <a class="support" href="#support">❤ Support Us</a>
     </header>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-content">
-                <img src="images/giraffe-hero.png" alt="Giraffe eating carrots" class="hero-image">
-                <div class="hero-text">
-                    <h2>Happy Animals,<br>Better Zoos</h2>
-                    <p>Zoos that care, educate and protect—for a better world for animals and us.</p>
-                    <button class="cta-button">Learn More</button>
-                </div>
-            </div>
-        </section>
+    <main class="layout">
+      <section class="hero glass" id="animals">
+        <div class="hero-image" role="img" aria-label="A giraffe leaning forward in a sunny zoo habitat"></div>
+        <div class="hero-panel">
+          <p class="float-icon">⭐</p>
+          <h2><span>Happy Animals,</span><br>Better Zoos</h2>
+          <p class="hero-copy">Zoos that care, educate and protect—for a better world for animals and us.</p>
 
-        <!-- Core Values Section -->
-        <section class="values">
-            <h3>Our Mission</h3>
-            <div class="values-grid">
-                <div class="value-card">
-                    <span class="value-icon">🌿</span>
-                    <h4>Care</h4>
-                    <p>Ensuring animals receive proper nutrition and veterinary care</p>
-                </div>
-                <div class="value-card">
-                    <span class="value-icon">❤️</span>
-                    <h4>Respect</h4>
-                    <p>Recognizing the dignity and needs of every animal</p>
-                </div>
-                <div class="value-card">
-                    <span class="value-icon">🛡️</span>
-                    <h4>Protect</h4>
-                    <p>Safeguarding endangered species and habitats</p>
-                </div>
-                <div class="value-card">
-                    <span class="value-icon">📚</span>
-                    <h4>Educate</h4>
-                    <p>Inspiring people to care for animals and our planet</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Impact Section -->
-        <section class="impact">
-            <h3>Zoos Make a Difference</h3>
-            <div class="impact-grid">
-                <div class="impact-card gummy-green">
-                    <span class="stat-number">90%</span>
-                    <p>of modern zoos participate in species survival programs</p>
-                </div>
-                <div class="impact-card gummy-pink">
-                    <span class="stat-number">500+</span>
-                    <p>endangered species are part of breeding programs in zoos</p>
-                </div>
-                <div class="impact-card gummy-orange">
-                    <span class="stat-number">1000s</span>
-                    <p>of animals receive veterinary care and health check-ups every day</p>
-                </div>
-                <div class="impact-card gummy-purple">
-                    <span class="stat-number">Millions</span>
-                    <p>of visitors are educated about wildlife and conservation every year</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- How Zoos Help Section -->
-        <section class="zoo-help">
-            <h3>How Zoos Promote Animal Welfare</h3>
-            <div class="help-grid">
-                <div class="help-card">
-                    <span class="help-icon">🥕</span>
-                    <h4>Proper Nutrition</h4>
-                    <p>Balanced diets tailored to each species' needs</p>
-                </div>
-                <div class="help-card">
-                    <span class="help-icon">🏠</span>
-                    <h4>Enrichment & Habitat</h4>
-                    <p>Stimulating environments and natural behaviors encouraged</p>
-                </div>
-                <div class="help-card">
-                    <span class="help-icon">⚕️</span>
-                    <h4>Health & Veterinary Care</h4>
-                    <p>Regular check-ups, treatments and preventive care</p>
-                </div>
-                <div class="help-card">
-                    <span class="help-icon">🔬</span>
-                    <h4>Conservation & Research</h4>
-                    <p>Zoos support field research and protect wild habitats</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Call to Action Section -->
-        <section class="cta-section">
-            <h3>You Can Help</h3>
-            <div class="cta-grid">
-                <div class="cta-card">
-                    <span class="cta-icon">❤️</span>
-                    <h4>Be Kind</h4>
-                    <p>Animals feel love and respect</p>
-                </div>
-                <div class="cta-card">
-                    <span class="cta-icon">🍊</span>
-                    <h4>Don't Feed</h4>
-                    <p>Help ensure their proper diet</p>
-                </div>
-                <div class="cta-card">
-                    <span class="cta-icon">🤐</span>
-                    <h4>Be Quiet</h4>
-                    <p>A calm place helps animals feel safe</p>
-                </div>
-                <div class="cta-card">
-                    <span class="cta-icon">💚</span>
-                    <h4>Support</h4>
-                    <p>Your support helps us do more</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer Message -->
-        <section class="footer-message">
-            <div class="footer-content">
-                <h4>Good Zoos. Better Futures. 🐾</h4>
-                <p>When we protect animals, we protect our planet.</p>
-                <p><strong>Thank you for caring!</strong></p>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-bottom">
-            <p>&copy; 2026 Giraffe Zoo Initiative. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="#privacy">Privacy Policy</a>
-                <a href="#terms">Terms of Service</a>
-                <a href="#contact">Contact Us</a>
-            </div>
+          <div class="values-row" id="education">
+            <article><span>🌿</span><h3>Care</h3></article>
+            <article><span>❤</span><h3>Respect</h3></article>
+            <article><span>🛡</span><h3>Protect</h3></article>
+            <article><span>📘</span><h3>Educate</h3></article>
+          </div>
         </div>
-    </footer>
+      </section>
 
-    <script src="script.js"></script>
+      <section class="split">
+        <article class="card glass" id="conservation">
+          <h3>Zoos Make a Difference</h3>
+          <div class="stats-grid">
+            <div><strong>90%</strong><p>of modern zoos participate in species survival programs.</p></div>
+            <div><strong>500+</strong><p>endangered species are part of zoo breeding programs.</p></div>
+            <div><strong>1000s</strong><p>of animals receive veterinary care and health check-ups daily.</p></div>
+            <div><strong>Millions</strong><p>of visitors are educated about wildlife each year.</p></div>
+          </div>
+        </article>
+
+        <article class="card glass" id="visit">
+          <h3>How Zoos Promote Animal Welfare</h3>
+          <ul class="info-list">
+            <li><span>🥕</span><div><h4>Proper Nutrition</h4><p>Balanced diets tailored to each species' needs.</p></div></li>
+            <li><span>🏡</span><div><h4>Enrichment & Habitat</h4><p>Stimulating spaces encourage natural behaviors.</p></div></li>
+            <li><span>🩺</span><div><h4>Health & Veterinary Care</h4><p>Routine checkups, treatment and preventive care.</p></div></li>
+            <li><span>🌍</span><div><h4>Conservation & Research</h4><p>Zoos support field research and habitat protection.</p></div></li>
+            <li><span>🎓</span><div><h4>Education & Awareness</h4><p>Public programs inspire long-term animal stewardship.</p></div></li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="card glass help" id="support">
+        <h3>You Can Help</h3>
+        <div class="help-grid">
+          <article><span>❤</span><h4>Be Kind</h4><p>Animals feel love and respect.</p></article>
+          <article><span>📵</span><h4>Don't Feed</h4><p>Help us preserve proper diets.</p></article>
+          <article><span>🤫</span><h4>Be Quiet</h4><p>A calm space helps animals feel safe.</p></article>
+          <article><span>♻</span><h4>Support</h4><p>Your support helps us do more.</p></article>
+        </div>
+      </section>
+
+      <footer class="footer-banner">
+        <p><strong>Good Zoos. Better Futures.</strong></p>
+        <p>When we protect animals, we protect our planet. Thank you for caring! 🐾</p>
+      </footer>
+    </main>
+  </div>
 </body>
 </html>
