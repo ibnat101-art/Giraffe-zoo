@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reported Incidents - Giraffe Zoo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="incidents.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>🦒 Giraffe Zoo</h1>
+                <p class="tagline">Care. Respect. Protect. Educate.</p>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="find-zoo.html" class="nav-link">Find a Zoo</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="incidents.html" class="nav-link active">Reported Incidents</a>
+                <a href="#support" class="nav-link support-btn">Support Us ❤️</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <h2>Reported Incidents</h2>
+            <p>Transparency in animal welfare concerns and incident management</p>
+        </section>
+
+        <!-- Quick Info -->
+        <section class="quick-info">
+            <div class="info-card">
+                <div class="info-number">124</div>
+                <div class="info-label">Incidents Reported</div>
+            </div>
+            <div class="info-card">
+                <div class="info-number">98%</div>
+                <div class="info-label">Investigated</div>
+            </div>
+            <div class="info-card">
+                <div class="info-number">68</div>
+                <div class="info-label">Resolved</div>
+            </div>
+            <div class="info-card">
+                <div class="info-number">1-2</div>
+                <div class="info-label">Days Average Response</div>
+            </div>
+        </section>
+
+        <!-- Report an Incident CTA -->
+        <section class="report-section">
+            <h3>Report an Animal Welfare Incident</h3>
+            <p>If you've witnessed any animal welfare concerns, please report them confidentially. We take every report seriously.</p>
+            <div class="report-buttons">
+                <button class="btn-report" onclick="scrollToForm()">Report Now</button>
+                <a href="#faq" class="btn-learn">Learn About the Process</a>
+            </div>
+        </section>
+
+        <!-- Active Incidents -->
+        <section class="incidents-list">
+            <h3>Recent Incident Reports</h3>
+            <div class="filter-tabs">
+                <button class="tab-btn active" data-filter="all">All</button>
+                <button class="tab-btn" data-filter="investigating">Investigating</button>
+                <button class="tab-btn" data-filter="resolved">Resolved</button>
+                <button class="tab-btn" data-filter="followup">Follow-up</button>
+            </div>
+
+            <!-- Incident Card 1 -->
+            <div class="incident-card status-investigating">
+                <div class="incident-header">
+                    <h4>Inadequate Enclosure Size for Giraffe</h4>
+                    <span class="status-badge investigating">🔍 Investigating</span>
+                </div>
+                <div class="incident-meta">
+                    <span class="incident-id">ID: INC-2026-0124</span>
+                    <span class="incident-date">Reported: May 2, 2026</span>
+                    <span class="incident-location">Safari Park, California</span>
+                </div>
+                <div class="incident-description">
+                    <p><strong>Concern:</strong> Visitor reported that the giraffe enclosure appears to be smaller than recommended standards, potentially limiting natural movement and browsing behaviors.</p>
+                </div>
+                <div class="incident-details">
+                    <p><strong>Status:</strong> Our team is currently visiting the facility to assess the enclosure conditions and verify compliance with welfare standards.</p>
+                    <p><strong>Progress:</strong> Initial site inspection scheduled for May 8, 2026.</p>
+                </div>
+                <div class="incident-actions">
+                    <button class="btn-view">View Details</button>
+                </div>
+            </div>
+
+            <!-- Incident Card 2 -->
+            <div class="incident-card status-resolved">
+                <div class="incident-header">
+                    <h4>Improper Animal Feeding by Visitors</h4>
+                    <span class="status-badge resolved">✓ Resolved</span>
+                </div>
+                <div class="incident-meta">
+                    <span class="incident-id">ID: INC-2026-0115</span>
+                    <span class="incident-date">Reported: April 15, 2026</span>
+                    <span class="incident-location">Zoo District, Texas</span>
+                </div>
+                <div class="incident-description">
+                    <p><strong>Concern:</strong> Multiple reports of visitors feeding unauthorized food items to zoo animals, creating health and safety risks.</p>
+                </div>
+                <div class="incident-details">
+                    <p><strong>Resolution:</strong> Zoo management implemented additional staff monitoring and installed clearer signage. Educational campaign launched successfully.</p>
+                    <p><strong>Date Resolved:</strong> April 28, 2026</p>
+                </div>
+                <div class="incident-actions">
+                    <button class="btn-view">View Details</button>
+                </div>
+            </div>
+
+            <!-- Incident Card 3 -->
+            <div class="incident-card status-investigating">
+                <div class="incident-header">
+                    <h4>Alleged Veterinary Care Delays</h4>
+                    <span class="status-badge investigating">🔍 Investigating</span>
+                </div>
+                <div class="incident-meta">
+                    <span class="incident-id">ID: INC-2026-0118</span>
+                    <span class="incident-date">Reported: April 25, 2026</span>
+                    <span class="incident-location">Metropolitan Zoo, New York</span>
+                </div>
+                <div class="incident-description">
+                    <p><strong>Concern:</strong> Staff member reported delays in veterinary response to animal health concerns, potentially affecting animal welfare.</p>
+                </div>
+                <div class="incident-details">
+                    <p><strong>Status:</strong> Confidential investigation in progress. Records review and staff interviews being conducted.</p>
+                    <p><strong>Progress:</strong> Preliminary findings expected by May 15, 2026.</p>
+                </div>
+                <div class="incident-actions">
+                    <button class="btn-view">View Details</button>
+                </div>
+            </div>
+
+            <!-- Incident Card 4 -->
+            <div class="incident-card status-resolved">
+                <div class="incident-header">
+                    <h4>Improved Habitat Enrichment Successfully Implemented</h4>
+                    <span class="status-badge resolved">✓ Resolved</span>
+                </div>
+                <div class="incident-meta">
+                    <span class="incident-id">ID: INC-2026-0098</span>
+                    <span class="incident-date">Reported: March 10, 2026</span>
+                    <span class="incident-location">Wildlife Center, Florida</span>
+                </div>
+                <div class="incident-description">
+                    <p><strong>Concern:</strong> Observation of stereotypic behaviors in primates suggesting insufficient environmental enrichment.</p>
+                </div>
+                <div class="incident-details">
+                    <p><strong>Resolution:</strong> Zoo implemented comprehensive enrichment program with expert consultation. Follow-up assessments show significant behavioral improvements.</p>
+                    <p><strong>Date Resolved:</strong> April 30, 2026</p>
+                </div>
+                <div class="incident-actions">
+                    <button class="btn-view">View Details</button>
+                </div>
+            </div>
+
+            <!-- Incident Card 5 -->
+            <div class="incident-card status-followup">
+                <div class="incident-header">
+                    <h4>Antibiotic Resistance Prevention Program</h4>
+                    <span class="status-badge followup">⚙️ Follow-up</span>
+                </div>
+                <div class="incident-meta">
+                    <span class="incident-id">ID: INC-2026-0102</span>
+                    <span class="incident-date">Reported: March 25, 2026</span>
+                    <span class="incident-location">Veterinary Complex, Illinois</span>
+                </div>
+                <div class="incident-description">
+                    <p><strong>Concern:</strong> Concerns about antibiotic use protocols and potential resistance development in zoo animals.</p>
+                </div>
+                <div class="incident-details">
+                    <p><strong>Status:</strong> Successful intervention with veterinary protocols updated. Monitoring continues quarterly.</p>
+                    <p><strong>Next Review:</strong> June 2026</p>
+                </div>
+                <div class="incident-actions">
+                    <button class="btn-view">View Details</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Report Form Section -->
+        <section id="report-form-section" class="report-form-section">
+            <h3>📋 Report an Incident</h3>
+            <p>Your report is confidential and helps us improve animal welfare standards globally</p>
+
+            <form class="incident-form" id="incidentForm">
+                <!-- Personal Information -->
+                <fieldset>
+                    <legend>Your Information (Optional - Reports can be Anonymous)</legend>
+                    <div class="form-row">
+                        <input type="text" placeholder="Name (Optional)" id="name">
+                        <input type="email" placeholder="Email (Optional)" id="email">
+                    </div>
+                    <input type="tel" placeholder="Phone (Optional)" id="phone">
+                </fieldset>
+
+                <!-- Incident Details -->
+                <fieldset>
+                    <legend>Incident Details</legend>
+                    <input type="text" placeholder="Zoo or Facility Name" required id="facilityName">
+                    <input type="text" placeholder="Location/City" required id="location">
+                    <input type="date" placeholder="Date of Incident" required id="incidentDate">
+                    <input type="time" placeholder="Time of Incident (if known)" id="incidentTime">
+                </fieldset>
+
+                <!-- Incident Type -->
+                <fieldset>
+                    <legend>Type of Concern</legend>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="incidentType" value="enclosure"> Inadequate Enclosure/Habitat</label>
+                        <label><input type="checkbox" name="incidentType" value="health"> Animal Health & Veterinary Care</label>
+                        <label><input type="checkbox" name="incidentType" value="feeding"> Improper Feeding/Nutrition</label>
+                        <label><input type="checkbox" name="incidentType" value="enrichment"> Lack of Enrichment</label>
+                        <label><input type="checkbox" name="incidentType" value="behavior"> Abnormal Behavior/Distress</label>
+                        <label><input type="checkbox" name="incidentType" value="safety"> Safety Concerns</label>
+                        <label><input type="checkbox" name="incidentType" value="other"> Other</label>
+                    </div>
+                </fieldset>
+
+                <!-- Description -->
+                <fieldset>
+                    <legend>Detailed Description</legend>
+                    <textarea placeholder="Please provide a detailed description of what you observed. Include specific animals, timeframe, and any contributing factors." rows="6" required id="description"></textarea>
+                </fieldset>
+
+                <!-- Evidence -->
+                <fieldset>
+                    <legend>Evidence (Optional)</legend>
+                    <p class="file-info">You can attach photos, videos, or documents (up to 10MB total)</p>
+                    <input type="file" multiple id="evidence" accept="image/*,video/*,.pdf,.doc,.docx">
+                </fieldset>
+
+                <!-- Preferences -->
+                <fieldset>
+                    <legend>Report Preferences</legend>
+                    <label><input type="checkbox" id="anonymous" checked> Keep this report anonymous</label>
+                    <label><input type="checkbox" id="followup"> I would like to receive updates on this incident</label>
+                    <label><input type="checkbox" id="contact"> I consent to be contacted by our investigation team if needed</label>
+                </fieldset>
+
+                <!-- Submit -->
+                <div class="form-actions">
+                    <button type="submit" class="btn-submit">Submit Report</button>
+                    <button type="reset" class="btn-reset">Clear Form</button>
+                </div>
+
+                <p class="privacy-notice">🔒 Your information is protected under our privacy policy. All reports are treated with confidentiality.</p>
+            </form>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section">
+            <h3>Frequently Asked Questions</h3>
+
+            <div class="faq-item">
+                <h4>How are incidents investigated?</h4>
+                <p>Each report is carefully reviewed by our investigation team. We assess the credibility of the report and conduct site visits when necessary. Investigations typically take 2-4 weeks depending on complexity. All findings are documented and recommendations provided to facility management.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Can I report anonymously?</h4>
+                <p>Yes! We strongly support anonymous reporting. You do not need to provide your name, email, or any identifying information. However, if you choose to provide contact information, we can keep you updated on the investigation progress.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What happens after I submit a report?</h4>
+                <p>Once submitted, your report is logged into our system with a unique ID number (you'll receive this). Our team will assess the report, gather additional information if needed, and determine next steps. Critical welfare issues are prioritized for immediate investigation.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Is my information kept confidential?</h4>
+                <p>Absolutely. We maintain strict confidentiality protocols. Your personal information is never shared with zoo management unless you explicitly authorize it. Reports can be investigated using facility records and third-party sources.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What if I'm concerned about retaliation?</h4>
+                <p>We take whistleblower protection very seriously. Anonymous reporting protects you from identification. If you prefer non-anonymous reporting but are concerned, we can discuss protective measures before submission.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>How can I track my report?</h4>
+                <p>After submission, you'll receive a unique incident ID. If you provided an email address, you can use this to request updates. Check back on this page for general incident tracking information as well.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>&copy; 2026 Giraffe Zoo Initiative. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="incidents.js"></script>
+</body>
+</html>
